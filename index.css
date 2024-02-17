@@ -1997,13 +1997,13 @@
     .nav-pop-up{
         display: none;
         position: absolute;
-        width: 80%;
-        height: 80vh;
-        border: 2px solid var(--orangeyellow-color);
-        right: 7%;
-        top: 28%;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
         background: var(--background-color);
-        border-radius: 10px;
         padding: 40px 25px;
     }
 
@@ -2013,10 +2013,10 @@
         left: 0;
     }
 
-    .pop-blob img{
+    /* .pop-blob img{
         width: 125px;
         height: 105px;
-    }
+    } */
 
     .close-icon{
         width: 100%;
@@ -2038,19 +2038,19 @@
     .pop-menu ul{
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         flex-direction: column;
         /* border: 2px solid red; */
         text-transform: capitalize;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 70px;
     }
     
     .pop-menu ul li{
         list-style: none;
         color: var(--darkgrey-color);
-        font-size: 20px;
+        font-size: 23px;
     }
     
     .pop-menu ul li:hover{
@@ -2072,14 +2072,15 @@
         font-weight: 700;
         color: var(--darkgrey-color);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .pop-logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 35px;
+        margin-top: 95px;
+        /* border: 2px solid red; */
     }
 
     .pop-logo p{
@@ -2634,15 +2635,26 @@
     .nav-pop-up{
         display: none;
         position: absolute;
-        width: 85%;
-        height: 60vh;
-        border: 2px solid var(--orangeyellow-color);
-        right: 7%;
-        top: 28%;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
         background: var(--background-color);
-        border-radius: 10px;
         padding: 40px 25px;
     }
+
+    .pop-blob{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* .pop-blob img{
+        width: 125px;
+        height: 105px;
+    } */
 
     .close-icon{
         width: 100%;
@@ -2670,13 +2682,13 @@
         text-transform: capitalize;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 140px;
     }
     
     .pop-menu ul li{
         list-style: none;
         color: var(--darkgrey-color);
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .pop-menu ul li:hover{
@@ -2698,14 +2710,15 @@
         font-weight: 700;
         color: var(--darkgrey-color);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .pop-logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 95px;
+        /* border: 2px solid red; */
     }
 
     .pop-logo p{
@@ -3218,15 +3231,26 @@
     .nav-pop-up{
         display: none;
         position: absolute;
-        width: 85%;
-        height: 65vh;
-        border: 2px solid var(--orangeyellow-color);
-        right: 5%;
-        top: 28%;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
         background: var(--background-color);
-        border-radius: 10px;
         padding: 40px 25px;
     }
+
+    .pop-blob{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* .pop-blob img{
+        width: 125px;
+        height: 105px;
+    } */
 
     .close-icon{
         width: 100%;
@@ -3254,13 +3278,13 @@
         text-transform: capitalize;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 140px;
     }
     
     .pop-menu ul li{
         list-style: none;
         color: var(--darkgrey-color);
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .pop-menu ul li:hover{
@@ -3282,14 +3306,15 @@
         font-weight: 700;
         color: var(--darkgrey-color);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .pop-logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 95px;
+        /* border: 2px solid red; */
     }
 
     .pop-logo p{
@@ -3854,15 +3879,26 @@
     .nav-pop-up{
         display: none;
         position: absolute;
-        width: 89%;
-        height: 70vh;
-        border: 2px solid var(--orangeyellow-color);
-        right: 5%;
-        top: 28%;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
         background: var(--background-color);
-        border-radius: 10px;
-        padding: 20px 25px;
+        padding: 40px 25px;
     }
+
+    .pop-blob{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* .pop-blob img{
+        width: 125px;
+        height: 105px;
+    } */
 
     .close-icon{
         width: 100%;
@@ -3873,8 +3909,8 @@
     }
 
     .close-icon img{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 
     /* .nav-pop-up .menu{
@@ -3884,19 +3920,19 @@
     .pop-menu ul{
         display: flex;
         align-items: center;
-        gap: 23px;
+        gap: 25px;
         flex-direction: column;
         /* border: 2px solid red; */
         text-transform: capitalize;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 15px;
+        margin-top: 90px;
     }
     
     .pop-menu ul li{
         list-style: none;
         color: var(--darkgrey-color);
-        font-size: 17px;
+        font-size: 18px;
     }
     
     .pop-menu ul li:hover{
@@ -3918,18 +3954,19 @@
         font-weight: 700;
         color: var(--darkgrey-color);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .pop-logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 65px;
+        /* border: 2px solid red; */
     }
 
     .pop-logo p{
-        font-size: 30px;
+        font-size: 33px;
         font-weight: 600;
         color: var(--orangeyellow-color);
         cursor: pointer;
@@ -4485,14 +4522,25 @@
     .nav-pop-up{
         display: none;
         position: absolute;
-        width: 89%;
-        height: 70vh;
-        border: 2px solid var(--orangeyellow-color);
-        right: 5%;
-        top: 28%;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
         background: var(--background-color);
-        border-radius: 10px;
-        padding: 20px 25px;
+        padding: 40px 25px;
+    }
+
+    .pop-blob{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .pop-blob img{
+        width: 165px;
+        height: 125px;
     }
 
     .close-icon{
@@ -4504,26 +4552,30 @@
     }
 
     .close-icon img{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
+
+    /* .nav-pop-up .menu{
+        
+    } */
 
     .pop-menu ul{
         display: flex;
         align-items: center;
-        gap: 23px;
+        gap: 25px;
         flex-direction: column;
         /* border: 2px solid red; */
         text-transform: capitalize;
         font-weight: 700;
         cursor: pointer;
-        margin-top: 15px;
+        margin-top: 90px;
     }
     
     .pop-menu ul li{
         list-style: none;
         color: var(--darkgrey-color);
-        font-size: 17px;
+        font-size: 18px;
     }
     
     .pop-menu ul li:hover{
@@ -4545,18 +4597,19 @@
         font-weight: 700;
         color: var(--darkgrey-color);
         cursor: pointer;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .pop-logo{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 65px;
+        /* border: 2px solid red; */
     }
 
     .pop-logo p{
-        font-size: 30px;
+        font-size: 33px;
         font-weight: 600;
         color: var(--orangeyellow-color);
         cursor: pointer;
